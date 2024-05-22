@@ -1,11 +1,19 @@
 import css from './App.module.css';
 import Sidebar from './components/Sidebar';
+import NavBarSimple from './components/NavBarSimple';
 import StatefulGreeting from './components/StatefulGreeting';
+import EventsClass from './components/EventsClass';
+import EventsFunction from './components/EventsFunction';
+
 
 function App() {
   return (
     <div className='App'>
-      <StatefulGreeting greeting="I'm a stateful class Component" name="matt" />
+      <NavBarSimple/>
+      <Sidebar/>
+      <EventsClass/>
+      <EventsFunction/>
+
     </div>
   );
 }
