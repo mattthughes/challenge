@@ -1,18 +1,12 @@
 import css from './App.module.css';
 import Sidebar from './components/Sidebar';
-import NavBarSimple from './components/NavBarSimple';
-import StatefulGreeting from './components/StatefulGreeting';
-import EventsClass from './components/EventsClass';
-import EventsFunction from './components/EventsFunction';
-
+import NavBarForm from './components/NavBarForm';
 
 function App() {
   return (
     <div className='App'>
-      <NavBarSimple/>
+      <NavBarForm/>
       <Sidebar/>
-      <EventsClass/>
-      <EventsFunction/>
 
     </div>
   );
